@@ -1,24 +1,20 @@
-@Regression
-Feature: valdiate POST request
+Feature: valdiate UPDATE request
 
-  @smoke
+  
     Scenario: 1.Validate you are able to create data in system
-    Given post the data to create user 
+    Given update the data to create user 
     Then validate status code is "201"
     Then validate id created for user with non null value 
     Then validate id created for user with non zero value
     
    Scenario: 2.Validate you are able to create user from file
-    Given post the data to create user from file
+    Given update the data to create user from file
     Then validate status code is "201"
     Then validate id created for user with non null value 
     Then validate id created for user with non zero value
-  
-  @smoke  
+    
 		Scenario: 3.Validate you are able to create user from update File with name field
-    Given post the data to create user from file with updated name
+    Given update the data to create user from file with updated name
     Then validate status code is "201"
     Then validate id created for user with non null value 
     Then validate id created for user with non zero value
-    
-    
