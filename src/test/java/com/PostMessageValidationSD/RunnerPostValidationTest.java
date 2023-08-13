@@ -8,12 +8,12 @@ import io.cucumber.junit.CucumberOptions;
 @CucumberOptions(
 		features= {"src/test/resources/com/PostMessageValidationFF/ValidatePostRequest.feature"},
 		glue={"com.PostMessageValidationSD"},
-		tags="@smoke",
+		tags="@Regression",
 		//dryRun=false,
 		//monochrome=true,
 		plugin={"pretty",
 				"html:target/cucumber-htmlreport.html",
-				"json:target/cucumber-report12311.json",
+				"json:target/cucumber-report7.json",
 				"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:target/ExtentReport1.html"
 		}
 		)
