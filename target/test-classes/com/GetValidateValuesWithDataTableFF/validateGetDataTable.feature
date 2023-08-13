@@ -1,4 +1,4 @@
-Feature: Validate Get request
+Feature: Validate Get request with DtaTable
 
 Scenario: 1.Validate Demo QA up and running
     Given Hit the URI

@@ -1,4 +1,4 @@
-Feature: Validate Get request
+Feature: Validate Get request with Parametere
 
 Scenario: 1. Validate data
 Given Hit the URI
